@@ -1,0 +1,19 @@
+#include <iostream>
+
+class jaman {
+public:
+    int k;
+
+    // Implicit (default) constructor
+    jaman() {
+        k = 2.2+10;
+        std::cout << "Implicit constructor called." << std::endl;
+    }
+};
+
+int main() {
+    jaman obj;
+    std::cout << "k: " << obj.k << std::endl;
+
+    return 0;
+}
